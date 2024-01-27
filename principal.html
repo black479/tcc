@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da academia">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <style>body{
+    font-size: 100%;
+    background:linear-gradient(45deg, rgb(25, 25, 25) 32%,#c8c9ca, #678cd6  75%);
+    font-family:Arial, Helvetica, sans-serif;
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    flex-wrap:wrap;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 25%;
+	}
+	50% {
+		background-position: 100% 25%;
+	}
+	100% {
+		background-position: 0% 75%;
+	}
+
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    flex-wrap:wrap;
+
+}
+
+.name-logo{
+    font-family: 'Libre Baskerville', serif;
+    padding-right: 20px ;
+    color: azure;
+    font-size: 32px;
+    font-weight: 400;
+
+    
+}
+
+.name-logo::after{
+    content: '';
+    display: block;
+    width: 13rem;
+    height: 0.3rem;
+    background-color: #ffffff;
+    margin: 10 auto;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 25px 20px 10px rgba(255, 255, 255, 0.212);
+    
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 90px;
+
+  
+ 
+}
+
+
+</style>
+
+    <title>Panther Gym</title>
+</head>
+
+<body>
+    <!--Inicio-->
+ 
+    <header class="cabecalho">
+         <h1 class="name-logo">Panther Gym</h1>   
+        <!--Inicio--<img href="principal.html" class="cabecalho-img" src="assest/img/pantera.jpg" height="1%" width="5%" >-->
+        <nav class="cabecalho-menu"> 
+            <a class="cabecalho-menu-item" href="assest2\cadastro.html">Cadastro</a>
+        
+            <a class="cabecalho-menu-item" href="cc/contato.html">Contato<span class="material-symbols-outlined">support_agent </span></a>
+                <a class="cabecalho-menu-item" href="login.html">Login
+                    <span class="material-symbols-outlined">logout</span></a>
+        </nav>
+    </header>
+
+        <!--Meio-->
+    <main class="conteudo">
+         <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Panther Gym</h1>
+                <h2 class="conteudo-principal-escrito-s">Conheça-nós de perto</h2>
+                <a href="login.html"  class="conteudo-principal-escrito-botao">Entrar</a>
+                
+            </div>
+
+            <img class="conteudo-principal-imagem"src="assest/img/undraw_fitness_stats_sht6.svg" alt="gym">
+         </section>
+         <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O site oferece:</h3>
+            <p class="conteudo-secundario-paragrafo">1. Te da informações sobre o <strong>ínicio da musculação</strong></p>
+            <p class="conteudo-secundario-paragrafo">2. Te informa como <strong> a sua saúde</strong></p>
+            <p class="conteudo-secundario-paragrafo">3. Te ajuda a <strong>com o seu objetivo</strong></p>
+         </section>
+         <br></br>
+         <br></br>
+         <br></br>
+
+
+
+
+    </main>
+    <!--Fim
+    <footer class="rodape">
+        <img src="assest/img/phantergym.jpg"  class="rodape-imagem" >
+
+    </footer>-->
+</body>
+
+</html>
